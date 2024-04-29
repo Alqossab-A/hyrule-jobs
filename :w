@@ -1,0 +1,21 @@
+<template>
+  <p>{{ name }}</p>
+</template>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+import { RouterLink, RouterView } from 'vue-router'
+import HomeView from './views/HomeView.vue'
+
+export default defineComponent({
+  name: 'App',
+  components: {},
+  data() {
+    return {
+      name: 'Link'
+    }
+  }
+});
+</script>
+
+<style scoped></style>
